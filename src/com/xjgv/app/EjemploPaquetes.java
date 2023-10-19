@@ -8,5 +8,9 @@ public class EjemploPaquetes {
         p.nombre = "Javier";
         System.out.println(p.nombre);
         Gato g = new Gato();
+        Perro perro = new Perro();
+        perro.nombre = "Sunny";
+        perro.raza = "Pitbull";
+        System.out.println(perro);
     }
 }
